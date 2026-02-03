@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>OJ Inc. Digital Card</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family: "Pretendard", system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+body{
+    min-height:100vh;
+    background:#050b14;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+}
+
+.card{
+    width:100%;
+    max-width:380px;
+    background:linear-gradient(160deg,#071a2d,#02050b);
+    border-radius:26px;
+    padding:28px 22px 34px;
+    box-shadow:0 0 40px rgba(0,255,255,0.15);
+    border:1px solid rgba(0,255,255,0.25);
+}
+
+.logo{
+    font-size:34px;
+    font-weight:800;
+    letter-spacing:2px;
+    color:#7df9ff;
+}
+
+.sub{
+    margin-top:4px;
+    color:#9ddde3;
+    font-size:13px;
+}
+
+.searchbox{
+    margin-top:22px;
+    background:#0b1c2d;
+    border-radius:40px;
+    padding:14px 18px;
+    border:1px solid rgba(0,255,255,0.4);
+    text-align:center;
+    font-size:14px;
+}
+
+.iconrow{
+    display:flex;
+    justify-content:space-around;
+    margin-top:22px;
+    color:#7df9ff;
+}
+
+.icon{
+    width:56px;
+    height:56px;
+    border-radius:50%;
+    border:1px solid rgba(0,255,255,0.4);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:13px;
+}
+
+.name{
+    margin-top:40px;
+    font-size:28px;
+    font-weight:800;
+}
+
+.badge{
+    display:inline-block;
+    margin-top:6px;
+    background:#0f5b60;
+    padding:6px 12px;
+    border-radius:16px;
+    font-size:13px;
+}
+
+.info{
+    margin-top:22px;
+    line-height:1.9;
+    font-size:14px;
+}
+
+.info span{
+    color:#ffd86b;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="logo">OJ INC.</div>
+    <div class="sub">AI Autonomous Platform</div>
+
+    <div class="searchbox">
+        A형 500×400×300 / 10EA 견적 요청드립니다
+    </div>
+
+    <div class="iconrow">
+        <div class="icon">Text</div>
+        <div class="icon">Voice</div>
+        <div class="icon">Image</div>
+    </div>
+
+    <div class="name">Jeon Si-Yeon</div>
+    <div class="badge">CEO / 전시연</div>
+
+    <div class="info">
+        <div><span>📱</span> 010-9283-3255</div>
+        <div><span>☎</span> 031-889-7798</div>
+        <div><span>✉</span> ceo@orderjust.ai</div>
+        <div><span>🌐</span> www.orderjust.ai</div>
+        <div><span>📍</span> 용인시 수지구 성복2로 17, 202호</div>
+    </div>
+
+</div>
+
+</body>
+</html>
